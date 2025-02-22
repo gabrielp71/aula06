@@ -1,0 +1,18 @@
+header {
+    background-color: #924f1b;  /*cor do fundo do cabeçalho*/
+    text-align: center; /*alinhamento do texto*/
+    padding: 25px; /*tamanho do cabeçalho*/
+
+}
+
+header h1 {
+    color: #f8ebbe; /*cor das letras*/
+    font-size: 30px; /*sempre para tamanho das letras*/
+}
+
+/*ponto e nome da classe para chamar do html*/
+.cafe {
+padding: 150px;
+background-color: #e2ac3f;
+
+}
