@@ -12,7 +12,29 @@ header h1 {
 
 /*ponto e nome da classe para chamar do html*/
 .cafe {
-padding: 150px;
-background-color: #e2ac3f;
+padding: 150px; /*tamanho do cabeçalho*/
+background-color: #e2ac3f; /*cor do fundo do cabeçalho */
+
+}
+
+/*ponto e nome da classe para chamar do html*/
+.cha {
+    color: #924f1b;
+    padding: 150px;  /*tamanho do cabeçalho*/
+    background-color:#2a0308 ;  /*cor do fundo do cabeçalho */
+    text-align: center;  /*alinhamento do texto*/
+}
+
+.coffee {
+    padding: 150px;  /*tamanho do cabeçalho*/
+    background-color:#f8ebbe; /*cor do fundo do cabeçalho */
+    text-align: center;  /*alinhamento do texto*/
+}
+
+/*rodape do site*/
+footer {
+background-color:#7ba58d ;  /*cor do fundo do cabeçalho */
+text-align: center; /*alinhamento do texto*/
+padding: 25px; /*tamanho do cabeçalho*/
 
 }
