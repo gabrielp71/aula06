@@ -14,7 +14,10 @@ header h1 {
 .cafe {
 padding: 150px; /*tamanho do cabeçalho*/
 background-color: #e2ac3f; /*cor do fundo do cabeçalho */
-
+display: flex;
+justify-content: center;
+gap: 26px;
+align-items: center;
 }
 
 /*ponto e nome da classe para chamar do html*/
@@ -23,18 +26,40 @@ background-color: #e2ac3f; /*cor do fundo do cabeçalho */
     padding: 150px;  /*tamanho do cabeçalho*/
     background-color:#2a0308 ;  /*cor do fundo do cabeçalho */
     text-align: center;  /*alinhamento do texto*/
+    padding: 30px;
+
+
 }
 
 .coffee {
     padding: 150px;  /*tamanho do cabeçalho*/
     background-color:#f8ebbe; /*cor do fundo do cabeçalho */
-    text-align: center;  /*alinhamento do texto*/
+    display: flex; /*tornando os itens flex*/
+    justify-content: center; /*alinhando o botao ao centro*/
+
+}
+
+/*chamando o botao que esta dentro da sessao*/
+.coffee button {
+    width: 150px; /*largura do botao*/
+    padding: 10px; /*preechimento do botao*/
+    background-color: rgb(105, 102, 102); /*cor de fundo com opacidade*/
+    border-radius:5px ; /*arredontamento do botao*/
+
+
 }
 
 /*rodape do site*/
 footer {
 background-color:#7ba58d ;  /*cor do fundo do cabeçalho */
-text-align: center; /*alinhamento do texto*/
-padding: 25px; /*tamanho do cabeçalho*/
+color: white;
+font-size: 20px;
+padding: 30px;
+text-align: center;
 
+}
+
+
+footer i {
+    font-size: 40px;
 }
